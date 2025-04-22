@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\HttpApi\Controllers;
+namespace Enterlight\LaravelWebSockets\HttpApi\Controllers;
 
-use BeyondCode\LaravelWebSockets\WebSockets\Channels\PresenceChannel;
+use Enterlight\LaravelWebSockets\WebSockets\Channels\PresenceChannel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Symfony\Component\HttpKernel\Exception\HttpException;

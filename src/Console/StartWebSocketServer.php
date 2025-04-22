@@ -1,16 +1,16 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Console;
+namespace Enterlight\LaravelWebSockets\Console;
 
-use BeyondCode\LaravelWebSockets\Facades\StatisticsLogger;
-use BeyondCode\LaravelWebSockets\Facades\WebSocketsRouter;
-use BeyondCode\LaravelWebSockets\Server\Logger\ConnectionLogger;
-use BeyondCode\LaravelWebSockets\Server\Logger\HttpLogger;
-use BeyondCode\LaravelWebSockets\Server\Logger\WebsocketsLogger;
-use BeyondCode\LaravelWebSockets\Server\WebSocketServerFactory;
-use BeyondCode\LaravelWebSockets\Statistics\DnsResolver;
-use BeyondCode\LaravelWebSockets\Statistics\Logger\StatisticsLogger as StatisticsLoggerInterface;
-use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
+use Enterlight\LaravelWebSockets\Facades\StatisticsLogger;
+use Enterlight\LaravelWebSockets\Facades\WebSocketsRouter;
+use Enterlight\LaravelWebSockets\Server\Logger\ConnectionLogger;
+use Enterlight\LaravelWebSockets\Server\Logger\HttpLogger;
+use Enterlight\LaravelWebSockets\Server\Logger\WebsocketsLogger;
+use Enterlight\LaravelWebSockets\Server\WebSocketServerFactory;
+use Enterlight\LaravelWebSockets\Statistics\DnsResolver;
+use Enterlight\LaravelWebSockets\Statistics\Logger\StatisticsLogger as StatisticsLoggerInterface;
+use Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManager;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 use React\Dns\Config\Config as DnsConfig;
@@ -66,7 +66,7 @@ class StartWebSocketServer extends Command
 
         app()->singleton(StatisticsLoggerInterface::class, function ($app) use ($browser) {
             $config = $app['config']['websockets'];
-            $class = $config['statistics']['logger'] ?? \BeyondCode\LaravelWebSockets\Statistics\Logger\HttpStatisticsLogger::class;
+            $class = $config['statistics']['logger'] ?? \Enterlight\LaravelWebSockets\Statistics\Logger\HttpStatisticsLogger::class;
 
             return new $class(app(ChannelManager::class), $browser);
         });

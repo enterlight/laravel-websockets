@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\ClientProviders;
+namespace Enterlight\LaravelWebSockets\Tests\ClientProviders;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Exceptions\InvalidApp;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\Apps\App;
+use Enterlight\LaravelWebSockets\Exceptions\InvalidApp;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 
 class AppTest extends TestCase
 {

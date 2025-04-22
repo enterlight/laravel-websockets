@@ -1,18 +1,18 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets;
+namespace Enterlight\LaravelWebSockets;
 
-use BeyondCode\LaravelWebSockets\Apps\AppProvider;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\AuthenticateDashboard;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\DashboardApiController;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\SendMessage;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\ShowDashboard;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
-use BeyondCode\LaravelWebSockets\Server\Router;
-use BeyondCode\LaravelWebSockets\Statistics\Http\Controllers\WebSocketStatisticsEntriesController;
-use BeyondCode\LaravelWebSockets\Statistics\Http\Middleware\Authorize as AuthorizeStatistics;
-use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
-use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManagers\ArrayChannelManager;
+use Enterlight\LaravelWebSockets\Apps\AppProvider;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\AuthenticateDashboard;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\DashboardApiController;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\SendMessage;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\ShowDashboard;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
+use Enterlight\LaravelWebSockets\Server\Router;
+use Enterlight\LaravelWebSockets\Statistics\Http\Controllers\WebSocketStatisticsEntriesController;
+use Enterlight\LaravelWebSockets\Statistics\Http\Middleware\Authorize as AuthorizeStatistics;
+use Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManager;
+use Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManagers\ArrayChannelManager;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

@@ -1,14 +1,14 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests;
+namespace Enterlight\LaravelWebSockets\Tests;
 
-use BeyondCode\LaravelWebSockets\Facades\StatisticsLogger;
-use BeyondCode\LaravelWebSockets\Tests\Mocks\Connection;
-use BeyondCode\LaravelWebSockets\Tests\Mocks\Message;
-use BeyondCode\LaravelWebSockets\Tests\Statistics\Logger\FakeStatisticsLogger;
-use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
-use BeyondCode\LaravelWebSockets\WebSockets\WebSocketHandler;
-use BeyondCode\LaravelWebSockets\WebSocketsServiceProvider;
+use Enterlight\LaravelWebSockets\Facades\StatisticsLogger;
+use Enterlight\LaravelWebSockets\Tests\Mocks\Connection;
+use Enterlight\LaravelWebSockets\Tests\Mocks\Message;
+use Enterlight\LaravelWebSockets\Tests\Statistics\Logger\FakeStatisticsLogger;
+use Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManager;
+use Enterlight\LaravelWebSockets\WebSockets\WebSocketHandler;
+use Enterlight\LaravelWebSockets\WebSocketsServiceProvider;
 use GuzzleHttp\Psr7\Request;
 use Mockery;
 use Pusher\Pusher;
@@ -17,10 +17,10 @@ use React\Http\Browser;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
-    /** @var \BeyondCode\LaravelWebSockets\WebSockets\WebSocketHandler */
+    /** @var \Enterlight\LaravelWebSockets\WebSockets\WebSocketHandler */
     protected $pusherServer;
 
-    /** @var \BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager */
+    /** @var \Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManager */
     protected $channelManager;
 
     public function setUp(): void

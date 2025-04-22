@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Dashboard;
+namespace Enterlight\LaravelWebSockets\Dashboard;
 
-use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
+use Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManager;
 use Ratchet\ConnectionInterface;
 use stdClass;
 

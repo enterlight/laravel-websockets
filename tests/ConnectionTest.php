@@ -1,11 +1,11 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests;
+namespace Enterlight\LaravelWebSockets\Tests;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Tests\Mocks\Message;
-use BeyondCode\LaravelWebSockets\WebSockets\Exceptions\ConnectionsOverCapacity;
-use BeyondCode\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey;
+use Enterlight\LaravelWebSockets\Apps\App;
+use Enterlight\LaravelWebSockets\Tests\Mocks\Message;
+use Enterlight\LaravelWebSockets\WebSockets\Exceptions\ConnectionsOverCapacity;
+use Enterlight\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey;
 
 class ConnectionTest extends TestCase
 {

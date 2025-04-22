@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\Statistics\Rules;
+namespace Enterlight\LaravelWebSockets\Tests\Statistics\Rules;
 
-use BeyondCode\LaravelWebSockets\Statistics\Rules\AppId;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\Statistics\Rules\AppId;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 
 class AppIdTest extends TestCase
 {

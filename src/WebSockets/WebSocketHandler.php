@@ -1,16 +1,16 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\WebSockets;
+namespace Enterlight\LaravelWebSockets\WebSockets;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Dashboard\DashboardLogger;
-use BeyondCode\LaravelWebSockets\Facades\StatisticsLogger;
-use BeyondCode\LaravelWebSockets\QueryParameters;
-use BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager;
-use BeyondCode\LaravelWebSockets\WebSockets\Exceptions\ConnectionsOverCapacity;
-use BeyondCode\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey;
-use BeyondCode\LaravelWebSockets\WebSockets\Exceptions\WebSocketException;
-use BeyondCode\LaravelWebSockets\WebSockets\Messages\PusherMessageFactory;
+use Enterlight\LaravelWebSockets\Apps\App;
+use Enterlight\LaravelWebSockets\Dashboard\DashboardLogger;
+use Enterlight\LaravelWebSockets\Facades\StatisticsLogger;
+use Enterlight\LaravelWebSockets\QueryParameters;
+use Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManager;
+use Enterlight\LaravelWebSockets\WebSockets\Exceptions\ConnectionsOverCapacity;
+use Enterlight\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey;
+use Enterlight\LaravelWebSockets\WebSockets\Exceptions\WebSocketException;
+use Enterlight\LaravelWebSockets\WebSockets\Messages\PusherMessageFactory;
 use Exception;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;
@@ -18,7 +18,7 @@ use Ratchet\WebSocket\MessageComponentInterface;
 
 class WebSocketHandler implements MessageComponentInterface
 {
-    /** @var \BeyondCode\LaravelWebSockets\WebSockets\Channels\ChannelManager */
+    /** @var \Enterlight\LaravelWebSockets\WebSockets\Channels\ChannelManager */
     protected $channelManager;
 
     public function __construct(ChannelManager $channelManager)

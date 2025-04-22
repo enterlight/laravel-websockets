@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\Statistics\Controllers;
+namespace Enterlight\LaravelWebSockets\Tests\Statistics\Controllers;
 
-use BeyondCode\LaravelWebSockets\Facades\StatisticsLogger;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\Facades\StatisticsLogger;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 
 class StatisticsLoggerTest extends TestCase
 {

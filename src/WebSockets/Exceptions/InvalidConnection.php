@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\WebSockets\Exceptions;
+namespace Enterlight\LaravelWebSockets\WebSockets\Exceptions;
 
 class InvalidConnection extends WebSocketException
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Server;
+namespace Enterlight\LaravelWebSockets\Server;
 
 use Psr\Http\Message\RequestInterface;
 use Ratchet\ConnectionInterface;

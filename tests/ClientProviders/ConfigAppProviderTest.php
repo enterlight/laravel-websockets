@@ -1,13 +1,13 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\ClientProviders;
+namespace Enterlight\LaravelWebSockets\Tests\ClientProviders;
 
-use BeyondCode\LaravelWebSockets\Apps\ConfigAppProvider;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\Apps\ConfigAppProvider;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 
 class ConfigAppProviderTest extends TestCase
 {
-    /** @var \BeyondCode\LaravelWebSockets\Apps\ConfigAppProvider */
+    /** @var \Enterlight\LaravelWebSockets\Apps\ConfigAppProvider */
     protected $configAppProvider;
 
     public function setUp(): void

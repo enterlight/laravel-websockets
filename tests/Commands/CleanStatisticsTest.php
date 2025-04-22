@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\Commands;
+namespace Enterlight\LaravelWebSockets\Tests\Commands;
 
 use Artisan;
-use BeyondCode\LaravelWebSockets\Statistics\Models\WebSocketsStatisticsEntry;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\Statistics\Models\WebSocketsStatisticsEntry;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 

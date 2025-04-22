@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\HttpApi;
+namespace Enterlight\LaravelWebSockets\Tests\HttpApi;
 
-use BeyondCode\LaravelWebSockets\HttpApi\Controllers\FetchUsersController;
-use BeyondCode\LaravelWebSockets\Tests\Mocks\Connection;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\HttpApi\Controllers\FetchUsersController;
+use Enterlight\LaravelWebSockets\Tests\Mocks\Connection;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 use GuzzleHttp\Psr7\Request;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 

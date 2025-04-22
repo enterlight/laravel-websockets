@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\HttpApi\Controllers;
+namespace Enterlight\LaravelWebSockets\HttpApi\Controllers;
 
-use BeyondCode\LaravelWebSockets\Dashboard\DashboardLogger;
-use BeyondCode\LaravelWebSockets\Facades\StatisticsLogger;
+use Enterlight\LaravelWebSockets\Dashboard\DashboardLogger;
+use Enterlight\LaravelWebSockets\Facades\StatisticsLogger;
 use Illuminate\Http\Request;
 
 class TriggerEventController extends Controller

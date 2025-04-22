@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Statistics\Http\Middleware;
+namespace Enterlight\LaravelWebSockets\Statistics\Http\Middleware;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
+use Enterlight\LaravelWebSockets\Apps\App;
 
 class Authorize
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Statistics;
+namespace Enterlight\LaravelWebSockets\Statistics;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
+use Enterlight\LaravelWebSockets\Apps\App;
 
 class Statistic
 {

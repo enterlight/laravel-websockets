@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\Channels;
+namespace Enterlight\LaravelWebSockets\Tests\Channels;
 
-use BeyondCode\LaravelWebSockets\Tests\Mocks\Message;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\Tests\Mocks\Message;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 
 class ChannelTest extends TestCase
 {

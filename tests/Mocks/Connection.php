@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\Mocks;
+namespace Enterlight\LaravelWebSockets\Tests\Mocks;
 
 use GuzzleHttp\Psr7\Request;
 use PHPUnit\Framework\Assert as PHPUnit;

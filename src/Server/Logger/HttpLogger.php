@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Server\Logger;
+namespace Enterlight\LaravelWebSockets\Server\Logger;
 
 use Exception;
 use Ratchet\ConnectionInterface;

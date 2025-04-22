@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Console;
+namespace Enterlight\LaravelWebSockets\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;

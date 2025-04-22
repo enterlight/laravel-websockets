@@ -1,14 +1,14 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Server;
+namespace Enterlight\LaravelWebSockets\Server;
 
-use BeyondCode\LaravelWebSockets\Exceptions\InvalidWebSocketController;
-use BeyondCode\LaravelWebSockets\HttpApi\Controllers\FetchChannelController;
-use BeyondCode\LaravelWebSockets\HttpApi\Controllers\FetchChannelsController;
-use BeyondCode\LaravelWebSockets\HttpApi\Controllers\FetchUsersController;
-use BeyondCode\LaravelWebSockets\HttpApi\Controllers\TriggerEventController;
-use BeyondCode\LaravelWebSockets\Server\Logger\WebsocketsLogger;
-use BeyondCode\LaravelWebSockets\WebSockets\WebSocketHandler;
+use Enterlight\LaravelWebSockets\Exceptions\InvalidWebSocketController;
+use Enterlight\LaravelWebSockets\HttpApi\Controllers\FetchChannelController;
+use Enterlight\LaravelWebSockets\HttpApi\Controllers\FetchChannelsController;
+use Enterlight\LaravelWebSockets\HttpApi\Controllers\FetchUsersController;
+use Enterlight\LaravelWebSockets\HttpApi\Controllers\TriggerEventController;
+use Enterlight\LaravelWebSockets\Server\Logger\WebsocketsLogger;
+use Enterlight\LaravelWebSockets\WebSockets\WebSocketHandler;
 use Illuminate\Support\Collection;
 use Ratchet\WebSocket\MessageComponentInterface;
 use Ratchet\WebSocket\WsServer;

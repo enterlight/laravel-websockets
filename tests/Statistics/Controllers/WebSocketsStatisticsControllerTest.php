@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\Statistics\Controllers;
+namespace Enterlight\LaravelWebSockets\Tests\Statistics\Controllers;
 
-use BeyondCode\LaravelWebSockets\Statistics\Http\Controllers\WebSocketStatisticsEntriesController;
-use BeyondCode\LaravelWebSockets\Statistics\Models\WebSocketsStatisticsEntry;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\Statistics\Http\Controllers\WebSocketStatisticsEntriesController;
+use Enterlight\LaravelWebSockets\Statistics\Models\WebSocketsStatisticsEntry;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
 
 class WebSocketsStatisticsControllerTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Tests\Channels;
+namespace Enterlight\LaravelWebSockets\Tests\Channels;
 
-use BeyondCode\LaravelWebSockets\Tests\Mocks\Connection;
-use BeyondCode\LaravelWebSockets\Tests\Mocks\Message;
-use BeyondCode\LaravelWebSockets\Tests\TestCase;
-use BeyondCode\LaravelWebSockets\WebSockets\Exceptions\InvalidSignature;
+use Enterlight\LaravelWebSockets\Tests\Mocks\Connection;
+use Enterlight\LaravelWebSockets\Tests\Mocks\Message;
+use Enterlight\LaravelWebSockets\Tests\TestCase;
+use Enterlight\LaravelWebSockets\WebSockets\Exceptions\InvalidSignature;
 
 class PresenceChannelTest extends TestCase
 {
