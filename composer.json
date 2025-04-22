@@ -29,9 +29,9 @@
         },
         {
             "name": "Brigitte Bedard",
-            "homepage": "https://github.com/engterlight",
+            "homepage": "https://github.com/enterlight",
             "role": "Developer"
-        },
+        }
     ],
     "require": {
         "php": "^8.0|^8.1|^8.2",
