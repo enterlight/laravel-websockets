@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Contracts;
+namespace Enterlight\LaravelWebSockets\Contracts;
 
 use Carbon\Carbon;
 

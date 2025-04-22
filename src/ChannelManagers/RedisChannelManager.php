@@ -1,12 +1,12 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\ChannelManagers;
+namespace Enterlight\LaravelWebSockets\ChannelManagers;
 
-use BeyondCode\LaravelWebSockets\Cache\RedisLock;
-use BeyondCode\LaravelWebSockets\Channels\Channel;
-use BeyondCode\LaravelWebSockets\DashboardLogger;
-use BeyondCode\LaravelWebSockets\Helpers;
-use BeyondCode\LaravelWebSockets\Server\MockableConnection;
+use Enterlight\LaravelWebSockets\Cache\RedisLock;
+use Enterlight\LaravelWebSockets\Channels\Channel;
+use Enterlight\LaravelWebSockets\DashboardLogger;
+use Enterlight\LaravelWebSockets\Helpers;
+use Enterlight\LaravelWebSockets\Server\MockableConnection;
 use Carbon\Carbon;
 use Clue\React\Redis\Client;
 use Clue\React\Redis\Factory;

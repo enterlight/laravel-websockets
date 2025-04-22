@@ -1,11 +1,11 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Apps;
+namespace Enterlight\LaravelWebSockets\Test\Apps;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Apps\MysqlAppManager;
-use BeyondCode\LaravelWebSockets\Contracts\AppManager;
-use BeyondCode\LaravelWebSockets\Test\TestCase;
+use Enterlight\LaravelWebSockets\Apps\App;
+use Enterlight\LaravelWebSockets\Apps\MysqlAppManager;
+use Enterlight\LaravelWebSockets\Contracts\AppManager;
+use Enterlight\LaravelWebSockets\Test\TestCase;
 
 class MysqlAppManagerTest extends TestCase
 {

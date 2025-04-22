@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Dashboard\Http\Requests;
+namespace Enterlight\LaravelWebSockets\Dashboard\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Console\Commands;
+namespace Enterlight\LaravelWebSockets\Console\Commands;
 
-use BeyondCode\LaravelWebSockets\Facades\StatisticsStore;
+use Enterlight\LaravelWebSockets\Facades\StatisticsStore;
 use Illuminate\Console\Command;
 
 class CleanStatistics extends Command

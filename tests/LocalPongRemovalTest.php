@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test;
+namespace Enterlight\LaravelWebSockets\Test;
 
 use Carbon\Carbon;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Facades;
+namespace Enterlight\LaravelWebSockets\Facades;
 
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsStore as StatisticsStoreInterface;
+use Enterlight\LaravelWebSockets\Contracts\StatisticsStore as StatisticsStoreInterface;
 use Illuminate\Support\Facades\Facade;
 
 class StatisticsStore extends Facade

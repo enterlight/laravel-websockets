@@ -12,7 +12,7 @@
 
 use Illuminate\Support\Str;
 
-$factory->define(\BeyondCode\LaravelWebSockets\Test\Models\User::class, function () {
+$factory->define(\Enterlight\LaravelWebSockets\Test\Models\User::class, function () {
     return [
         'name' => 'Name'.Str::random(5),
         'email' => Str::random(5).'@gmail.com',

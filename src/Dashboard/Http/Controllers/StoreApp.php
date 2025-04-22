@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace Enterlight\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use BeyondCode\LaravelWebSockets\Contracts\AppManager;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Requests\StoreAppRequest;
+use Enterlight\LaravelWebSockets\Contracts\AppManager;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Requests\StoreAppRequest;
 use Illuminate\Support\Str;
 use React\EventLoop\LoopInterface;
 
@@ -15,7 +15,7 @@ class StoreApp
      * Show the configured apps.
      *
      * @param  StoreAppRequest  $request
-     * @param  \BeyondCode\LaravelWebSockets\Contracts\AppManager  $apps
+     * @param  \Enterlight\LaravelWebSockets\Contracts\AppManager  $apps
      * @return void
      */
     public function __invoke(StoreAppRequest $request, AppManager $apps)

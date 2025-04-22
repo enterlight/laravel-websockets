@@ -1,14 +1,14 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Console\Commands;
+namespace Enterlight\LaravelWebSockets\Console\Commands;
 
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Facades\StatisticsCollector as StatisticsCollectorFacade;
-use BeyondCode\LaravelWebSockets\Facades\WebSocketRouter;
-use BeyondCode\LaravelWebSockets\Server\Loggers\ConnectionLogger;
-use BeyondCode\LaravelWebSockets\Server\Loggers\HttpLogger;
-use BeyondCode\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
-use BeyondCode\LaravelWebSockets\ServerFactory;
+use Enterlight\LaravelWebSockets\Contracts\ChannelManager;
+use Enterlight\LaravelWebSockets\Facades\StatisticsCollector as StatisticsCollectorFacade;
+use Enterlight\LaravelWebSockets\Facades\WebSocketRouter;
+use Enterlight\LaravelWebSockets\Server\Loggers\ConnectionLogger;
+use Enterlight\LaravelWebSockets\Server\Loggers\HttpLogger;
+use Enterlight\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
+use Enterlight\LaravelWebSockets\ServerFactory;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 use React\EventLoop\Factory as LoopFactory;

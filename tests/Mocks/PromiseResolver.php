@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Mocks;
+namespace Enterlight\LaravelWebSockets\Test\Mocks;
 
-use BeyondCode\LaravelWebSockets\Helpers;
+use Enterlight\LaravelWebSockets\Helpers;
 use Clue\React\Block;
 use React\EventLoop\LoopInterface;
 use React\Promise\FulfilledPromise;

@@ -1,18 +1,18 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets;
+namespace Enterlight\LaravelWebSockets;
 
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector;
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsStore;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\AuthenticateDashboard;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\SendMessage;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\ShowApps;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\ShowDashboard;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\ShowStatistics;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers\StoreApp;
-use BeyondCode\LaravelWebSockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
-use BeyondCode\LaravelWebSockets\Queue\AsyncRedisConnector;
-use BeyondCode\LaravelWebSockets\Server\Router;
+use Enterlight\LaravelWebSockets\Contracts\StatisticsCollector;
+use Enterlight\LaravelWebSockets\Contracts\StatisticsStore;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\AuthenticateDashboard;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\SendMessage;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\ShowApps;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\ShowDashboard;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\ShowStatistics;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Controllers\StoreApp;
+use Enterlight\LaravelWebSockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
+use Enterlight\LaravelWebSockets\Queue\AsyncRedisConnector;
+use Enterlight\LaravelWebSockets\Server\Router;
 use Clue\React\SQLite\DatabaseInterface;
 use Clue\React\SQLite\Factory as SQLiteFactory;
 use Illuminate\Support\Facades\Gate;

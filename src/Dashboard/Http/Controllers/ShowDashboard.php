@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace Enterlight\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use BeyondCode\LaravelWebSockets\Contracts\AppManager;
-use BeyondCode\LaravelWebSockets\DashboardLogger;
+use Enterlight\LaravelWebSockets\Contracts\AppManager;
+use Enterlight\LaravelWebSockets\DashboardLogger;
 use Illuminate\Http\Request;
 use React\EventLoop\LoopInterface;
 
@@ -15,7 +15,7 @@ class ShowDashboard
      * Show the dashboard.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \BeyondCode\LaravelWebSockets\Contracts\AppManager  $apps
+     * @param  \Enterlight\LaravelWebSockets\Contracts\AppManager  $apps
      * @return void
      */
     public function __invoke(Request $request, AppManager $apps)

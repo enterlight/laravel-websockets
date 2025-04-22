@@ -1,15 +1,15 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test;
+namespace Enterlight\LaravelWebSockets\Test;
 
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector;
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsStore;
-use BeyondCode\LaravelWebSockets\Facades\WebSocketRouter;
-use BeyondCode\LaravelWebSockets\Helpers;
-use BeyondCode\LaravelWebSockets\Server\Loggers\HttpLogger;
-use BeyondCode\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
-use BeyondCode\LaravelWebSockets\ServerFactory;
+use Enterlight\LaravelWebSockets\Contracts\ChannelManager;
+use Enterlight\LaravelWebSockets\Contracts\StatisticsCollector;
+use Enterlight\LaravelWebSockets\Contracts\StatisticsStore;
+use Enterlight\LaravelWebSockets\Facades\WebSocketRouter;
+use Enterlight\LaravelWebSockets\Helpers;
+use Enterlight\LaravelWebSockets\Server\Loggers\HttpLogger;
+use Enterlight\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
+use Enterlight\LaravelWebSockets\ServerFactory;
 use Clue\React\Buzz\Browser;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Redis;
@@ -44,28 +44,28 @@ abstract class TestCase extends Orchestra
     /**
      * A test Pusher server.
      *
-     * @var \BeyondCode\LaravelWebSockets\Server\WebSocketHandler
+     * @var \Enterlight\LaravelWebSockets\Server\WebSocketHandler
      */
     protected $pusherServer;
 
     /**
      * The test Channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\ChannelManager
+     * @var \Enterlight\LaravelWebSockets\Contracts\ChannelManager
      */
     protected $channelManager;
 
     /**
      * The test Channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector
+     * @var \Enterlight\LaravelWebSockets\Contracts\StatisticsCollector
      */
     protected $statisticsCollector;
 
     /**
      * The test Channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\StatisticsStore
+     * @var \Enterlight\LaravelWebSockets\Contracts\StatisticsStore
      */
     protected $statisticsStore;
 
@@ -163,7 +163,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \BeyondCode\LaravelWebSockets\WebSocketsServiceProvider::class,
+            \Enterlight\LaravelWebSockets\WebSocketsServiceProvider::class,
             TestServiceProvider::class,
         ];
     }
@@ -266,13 +266,13 @@ abstract class TestCase extends Orchestra
 
         $app['config']->set('websockets.replication.modes', [
             'local' => [
-                'channel_manager' => \BeyondCode\LaravelWebSockets\ChannelManagers\LocalChannelManager::class,
-                'collector' => \BeyondCode\LaravelWebSockets\Statistics\Collectors\MemoryCollector::class,
+                'channel_manager' => \Enterlight\LaravelWebSockets\ChannelManagers\LocalChannelManager::class,
+                'collector' => \Enterlight\LaravelWebSockets\Statistics\Collectors\MemoryCollector::class,
             ],
             'redis' => [
-                'channel_manager' => \BeyondCode\LaravelWebSockets\ChannelManagers\RedisChannelManager::class,
+                'channel_manager' => \Enterlight\LaravelWebSockets\ChannelManagers\RedisChannelManager::class,
                 'connection' => 'default',
-                'collector' => \BeyondCode\LaravelWebSockets\Statistics\Collectors\RedisCollector::class,
+                'collector' => \Enterlight\LaravelWebSockets\Statistics\Collectors\RedisCollector::class,
             ],
         ]);
     }
@@ -302,7 +302,7 @@ abstract class TestCase extends Orchestra
 
         $this->app['config']->set(
             'websockets.promise_resolver',
-            \BeyondCode\LaravelWebSockets\Test\Mocks\PromiseResolver::class
+            \Enterlight\LaravelWebSockets\Test\Mocks\PromiseResolver::class
         );
     }
 

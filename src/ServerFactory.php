@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets;
+namespace Enterlight\LaravelWebSockets;
 
-use BeyondCode\LaravelWebSockets\Server\HttpServer;
-use BeyondCode\LaravelWebSockets\Server\Loggers\HttpLogger;
+use Enterlight\LaravelWebSockets\Server\HttpServer;
+use Enterlight\LaravelWebSockets\Server\Loggers\HttpLogger;
 use Ratchet\Http\Router;
 use Ratchet\Server\IoServer;
 use React\EventLoop\Factory as LoopFactory;

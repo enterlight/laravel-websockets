@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Server\Messages;
+namespace Enterlight\LaravelWebSockets\Server\Messages;
 
-use BeyondCode\LaravelWebSockets\Events\ConnectionPonged;
+use Enterlight\LaravelWebSockets\Events\ConnectionPonged;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use stdClass;

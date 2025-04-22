@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Models;
+namespace Enterlight\LaravelWebSockets\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

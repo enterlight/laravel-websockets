@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test;
+namespace Enterlight\LaravelWebSockets\Test;
 
-use BeyondCode\LaravelWebSockets\API\FetchUsers;
+use Enterlight\LaravelWebSockets\API\FetchUsers;
 use GuzzleHttp\Psr7\Request;
 use Pusher\Pusher;
 

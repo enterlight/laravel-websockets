@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Cache;
+namespace Enterlight\LaravelWebSockets\Cache;
 
 use Illuminate\Support\Str;
 use React\Promise\PromiseInterface;

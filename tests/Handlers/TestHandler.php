@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Handlers;
+namespace Enterlight\LaravelWebSockets\Test\Handlers;
 
 use Exception;
 use Ratchet\ConnectionInterface;

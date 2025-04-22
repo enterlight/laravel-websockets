@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Server\Messages;
+namespace Enterlight\LaravelWebSockets\Server\Messages;
 
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Contracts\PusherMessage;
-use BeyondCode\LaravelWebSockets\DashboardLogger;
+use Enterlight\LaravelWebSockets\Contracts\ChannelManager;
+use Enterlight\LaravelWebSockets\Contracts\PusherMessage;
+use Enterlight\LaravelWebSockets\DashboardLogger;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use stdClass;

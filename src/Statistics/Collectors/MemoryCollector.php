@@ -1,12 +1,12 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Statistics\Collectors;
+namespace Enterlight\LaravelWebSockets\Statistics\Collectors;
 
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector;
-use BeyondCode\LaravelWebSockets\Facades\StatisticsStore;
-use BeyondCode\LaravelWebSockets\Helpers;
-use BeyondCode\LaravelWebSockets\Statistics\Statistic;
+use Enterlight\LaravelWebSockets\Contracts\ChannelManager;
+use Enterlight\LaravelWebSockets\Contracts\StatisticsCollector;
+use Enterlight\LaravelWebSockets\Facades\StatisticsStore;
+use Enterlight\LaravelWebSockets\Helpers;
+use Enterlight\LaravelWebSockets\Statistics\Statistic;
 use React\Promise\PromiseInterface;
 
 class MemoryCollector implements StatisticsCollector
@@ -21,7 +21,7 @@ class MemoryCollector implements StatisticsCollector
     /**
      * The Channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\ChannelManager
+     * @var \Enterlight\LaravelWebSockets\Contracts\ChannelManager
      */
     protected $channelManager;
 
@@ -141,7 +141,7 @@ class MemoryCollector implements StatisticsCollector
      * Get the saved statistics for an app.
      *
      * @param  string|int  $appId
-     * @return PromiseInterface[\BeyondCode\LaravelWebSockets\Statistics\Statistic|null]
+     * @return PromiseInterface[\Enterlight\LaravelWebSockets\Statistics\Statistic|null]
      */
     public function getAppStatistics($appId): PromiseInterface
     {
@@ -166,7 +166,7 @@ class MemoryCollector implements StatisticsCollector
      * Find or create a defined statistic for an app.
      *
      * @param  string|int  $appId
-     * @return \BeyondCode\LaravelWebSockets\Statistics\Statistic
+     * @return \Enterlight\LaravelWebSockets\Statistics\Statistic
      */
     protected function findOrMake($appId): Statistic
     {
@@ -180,7 +180,7 @@ class MemoryCollector implements StatisticsCollector
     /**
      * Create a new record using the Statistic Store.
      *
-     * @param  \BeyondCode\LaravelWebSockets\Statistics\Statistic  $statistic
+     * @param  \Enterlight\LaravelWebSockets\Statistics\Statistic  $statistic
      * @param  mixed  $appId
      * @return void
      */

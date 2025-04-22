@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Dashboard;
+namespace Enterlight\LaravelWebSockets\Test\Dashboard;
 
-use BeyondCode\LaravelWebSockets\Apps\SQLiteAppManager;
-use BeyondCode\LaravelWebSockets\Test\Models\User;
-use BeyondCode\LaravelWebSockets\Test\TestCase;
+use Enterlight\LaravelWebSockets\Apps\SQLiteAppManager;
+use Enterlight\LaravelWebSockets\Test\Models\User;
+use Enterlight\LaravelWebSockets\Test\TestCase;
 
 class AppsTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\API;
+namespace Enterlight\LaravelWebSockets\API;
 
-use BeyondCode\LaravelWebSockets\Channels\Channel;
+use Enterlight\LaravelWebSockets\Channels\Channel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use stdClass;

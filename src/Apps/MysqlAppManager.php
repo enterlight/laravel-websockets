@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Apps;
+namespace Enterlight\LaravelWebSockets\Apps;
 
-use BeyondCode\LaravelWebSockets\Contracts\AppManager;
+use Enterlight\LaravelWebSockets\Contracts\AppManager;
 use React\MySQL\ConnectionInterface;
 use React\MySQL\QueryResult;
 use React\Promise\Deferred;
@@ -115,7 +115,7 @@ class MysqlAppManager implements AppManager
      * Map the app into an App instance.
      *
      * @param  array|null  $app
-     * @return \BeyondCode\LaravelWebSockets\Apps\App|null
+     * @return \Enterlight\LaravelWebSockets\Apps\App|null
      */
     protected function convertIntoApp(?array $appAttributes): ?App
     {

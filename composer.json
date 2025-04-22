@@ -67,12 +67,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BeyondCode\\LaravelWebSockets\\": "src/"
+            "Enterlight\\LaravelWebSockets\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BeyondCode\\LaravelWebSockets\\Test\\": "tests"
+            "Enterlight\\LaravelWebSockets\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -86,10 +86,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BeyondCode\\LaravelWebSockets\\WebSocketsServiceProvider"
+                "Enterlight\\LaravelWebSockets\\WebSocketsServiceProvider"
             ],
             "aliases": {
-                "WebSocketRouter": "BeyondCode\\LaravelWebSockets\\Facades\\WebSocketRouter"
+                "WebSocketRouter": "Enterlight\\LaravelWebSockets\\Facades\\WebSocketRouter"
             }
         }
     }
